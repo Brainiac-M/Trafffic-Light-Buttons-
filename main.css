@@ -1,0 +1,187 @@
+/*__    _____GLOBAL STYLES______*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #070707;
+}
+
+
+/*_______LINK STYLES______*/
+
+a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+
+/*_______RED BUTTON STYLES______*/
+
+#btn-1 {
+    color: #f70202;
+    transition: 0.5s;
+}
+
+#btn-1:hover {
+    color: #af1616;
+    background-color: #f70202;
+    border-radius: 2px;
+    box-shadow: 0 0 30px #f70202, 0 0 50px #f70202, 0 0 70px #f70202;
+}
+
+
+/*_______YELLOW BUTTON STYLES______*/
+
+#btn-2 {
+    position: relative;
+    overflow: hidden;
+    color: #dbeb07;
+}
+
+#btn-2 span {
+    position: absolute;
+    display: block;
+}
+
+#btn-2 span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 1.3px;
+    background: linear-gradient(90deg, transparent, #dbeb07);
+}
+
+#btn-2:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+#btn-2 span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 1.3px;
+    background: linear-gradient(270deg, transparent, #dbeb07);
+}
+
+#btn-2:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#btn-2 span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    height: 100%;
+    width: 1.3px;
+    background: linear-gradient(180deg, transparent, #dbeb07);
+}
+
+#btn-2:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#btn-2 span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    height: 100%;
+    width: 1.3px;
+    background: linear-gradient(360deg, transparent, #dbeb07);
+}
+
+#btn-2:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+/*_______GREEN BUTTON STYLES______*/
+
+#btn-3 {
+    color: #02ff41ab;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+
+#btn-3:hover {
+    color: #16721d;
+    border-radius: 2px;
+    background-color: #02ff41ab;
+    box-shadow: 0 0 30px #02ff41ab, 0 0 50px #02ff41ab, 0 0 70px #02ff41ab;
+    transition-delay: 1s;
+}
+
+#btn-3 span {
+    position: absolute;
+    display: block;
+}
+
+#btn-3 span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 1.3px;
+    background: linear-gradient(90deg, transparent, #02ff41ab);
+}
+
+#btn-3:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+#btn-3 span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 1.3px;
+    background: linear-gradient(270deg, transparent, #02ff41ab);
+}
+
+#btn-3:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#btn-3 span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    height: 100%;
+    width: 1.3px;
+    background: linear-gradient(180deg, transparent, #02ff41ab);
+}
+
+#btn-3:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#btn-3 span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    height: 100%;
+    width: 1.3px;
+    background: linear-gradient(360deg, transparent, #02ff41ab);
+}
+
+#btn-3:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
